@@ -1,4 +1,4 @@
-## IBM Watson OpenScale Custom ML Provider
+## IBM Watson OpenScale Custom ML Provider - Reference Implementation
 
 With IBM Watson OpenScale you can monitor a machine learning model that is deployed in various serv engines like, Watson Machine Learning, Azure, AWS, SPSS. And if your machine learning models are not deployed in these serv engines, say it is hosted as a docker endpoint in your in-house environment or it is hosted in Google Cloud ML, BigML or Domino, or Arimo engines, and you want to monitor the models for their fairness in predictions, drift or monitor the quality and be able to explain the transactions, then the option is to expose the model scoring endpoints as a custom ML provider and subscribe these endpoints with OpenScale for model monitoring. To simply put - wrap the model scoring as a REST endpoint and subscribe this REST endpoint with OpenScale for model monitoring.
 
