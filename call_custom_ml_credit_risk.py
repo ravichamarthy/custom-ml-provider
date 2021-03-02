@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 file_name = '/Users/ravi/Downloads/AISphere/Notebooks/german_credit_data_biased_test.csv'
 delimiter = ','
 scoring_url = "http://custom-ml-providers-01.us-south.cf.appdomain.cloud/deployments/3462b215-21f3-4d82-8a66-b1ffd93c9f95?version=2020-10-25"
-aios_credentials = {"apikey": "R4ZmoGqWaQyxy5370P_eEP7N4iWZpUJWpfbPzQ6IAGG0", "url": "https://api.aiopenscale.cloud.ibm.com", "instance_guid": "819899f3-86be-406a-8a23-bf0a0131df7b"}
+aios_credentials = {"apikey": "R4ZmoGqWaQyxy5370P_xxxxxx", "url": "https://api.aiopenscale.cloud.ibm.com", "instance_guid": "819899f3-86be-406a-8a23-bf0a0131df7b"}
 allowed_status = [200,201,202]
 
 def main():
